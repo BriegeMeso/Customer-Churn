@@ -1,6 +1,6 @@
 # SyriaTel Customer Churn Prediction
 
-## Project Overview.
+## Project Overview
 
 Customer churn is a major challenge for SyriaTel Communications Company. Acquiring new customers is significantly more expensive than retaining existing ones. This project applies machine learning techniques to identify customers likely to discontinue their services, enabling proactive retention strategies.
 
@@ -82,10 +82,10 @@ SyriaTel needs to identify at-risk customers to minimize revenue loss from churn
 
 | Model | Recall | Precision | F1-Score | Accuracy | ROC-AUC |
 |-------|--------|-----------|----------|----------|---------|
-| Logistic Regression       | 0.216 | 0.574 | 0.314 | 0.865 | 0.83 |
-| Tuned Logistic Regression | 0.804 | 0.370| 0.507 | 0.8777 | 0.835 |
-| Decision Tree             | 0.748 | 0.718 | 0.732 | 0.922 | 0.817 |
-| **Tuned Decision Tree**   | **0.811** | **0.534** | **0.644** | **0.872** | **0.867** |
+| Logistic Regression | 0.220 | 0.570 | 0.315 | 0.864 | 0.738 |
+| Tuned Logistic Regression | 0.495 | 0.598 | 0.541 | 0.872 | 0.835 |
+| Decision Tree | 0.538 | 0.552 | 0.545 | 0.872 | 0.816 |
+| **Tuned Decision Tree** | **0.811** | **0.534** | **0.644** | **0.872** | **0.867** |
 
 ### Best Model: Tuned Decision Tree
 
@@ -120,7 +120,7 @@ SyriaTel needs to identify at-risk customers to minimize revenue loss from churn
    - International plan subscribers
    - Frequent customer service interactions
 
-4. **False NegativeS**
+4. **False Negatives Warning:** 46 customers were predicted as non-churners but actually churned - these represent critical business risk
 
 ## Recommendations
 
