@@ -120,7 +120,7 @@ SyriaTel needs to identify at-risk customers to minimize revenue loss from churn
    - International plan subscribers
    - Frequent customer service interactions
 
-4. **False Negatives Warning:** 46 customers were predicted as non-churners but actually churned - these represent critical business risk
+4. **False NegativeS**
 
 ## Recommendations
 
